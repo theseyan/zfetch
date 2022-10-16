@@ -1,8 +1,13 @@
 ## Notice
 
-This package is deprecated and archived for the foreseeable future due to the zig master being an ever changing target
-and my lack of time to address and fix things that have changed. Those looking for a similar experience should look
-at [haze/zelda](https://github.com/haze/zelda).
+This fork is meant to allow zfetch usage on zig 0.10 (a.k.a. stage2, a.k.a. 
+self hosted compiler). The original author has deprecated/archived their
+zfetch package, recommending [haze/zelda](https://github.com/haze/zelda).
+However, I find it useful to have a version that doesn't depend on libressl,
+and the changes necessary to make this work on zig 0.10 were minimal.
+
+I do not intend to keep this updated with master, but will update it for
+official zig versions.
 
 # zfetch
 
