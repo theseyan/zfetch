@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
 
       - name: Setup Zig
-        uses: goto-bus-stop/setup-zig@v1
+        uses: korandoru/setup-zig@v1
         with:
-          version: master
+          zig-version: master
 
       - name: Setup Gyro
         uses: mattnite/setup-gyro@v1
