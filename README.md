@@ -9,6 +9,10 @@ and the changes necessary to make this work on zig 0.10 were minimal.
 I do not intend to keep this updated with master, but will update it for
 official zig versions.
 
+Current GitHub Actions build failures based on gyro 0.7.0 needing a release
+to get up to date with zig master. I intend to remove package manager support
+in favor of either submodules or subtrees to reduce the number of moving parts.
+
 # zfetch
 
 [![Linux Workflow Status](https://img.shields.io/github/workflow/status/truemedian/zfetch/Linux?label=Linux&style=for-the-badge)](https://github.com/truemedian/zfetch/actions/workflows/linux.yml)
